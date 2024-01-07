@@ -109,6 +109,16 @@ footer {
 
 /* Sucursales - Nosotros */
 
+.horarios{
+text-align: center;
+color: #361112;
+list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 iframe {
     display:block;
     margin: auto;
