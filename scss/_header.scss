@@ -1,0 +1,22 @@
+/* Header */
+
+.imgLogo {
+    width: 100px;
+}
+
+.encabezado {
+    background-color: $color-fondo;
+    border-bottom: $color-fuentes 1px solid;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+}
+
+.imgCarrousel {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-color: $color-fondo-sec;
+    margin-top: 20px;
+}

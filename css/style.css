@@ -1,160 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-
-}
-
-/* Body */
-
-body {
-    background-color: white;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-
-/* Header */
-
-.imgLogo {
-    width: 100px;
-}
-
-.encabezado {
-    background-color: white;
-    border-bottom: #361112 1px solid;
-}
-
-.menuNav a {
-    text-transform: uppercase;
-}
-
-.imgCarrousel {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    background-color: #F9F1F3;
-    margin-top: 20px;
-}
-
-/* Main */
-
-main {
-    margin: 20px;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-    color: #361112;
-    margin: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-
-/* Footer */
-
-footer {
-    margin: 10px;
-    padding: 20px;
-    border-top: 1px solid #361112;
-}
-
-/* Novedades - Productos */
-
-.noBorder {
-    border: none;
-}
-
-.btnCarrito {
-    background-color: #c35c5f;
-    color: #F9F1F3;
-}
-
-.btnCarrito:hover {
-    background-color: #c97a7d;
-}
-
-/* Newsletter */
-
-.newsletter {
-    margin: auto;
-    background-color: #F9F1F3;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-.btnNews {
-    background-color: #c35c5f;
-    color: #F9F1F3;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Alegreya Sans', sans-serif;
-    cursor: pointer;
-}
-
-.btnNews:hover {
-    background-color: #c97a7d;
-}
-
-.copy {
-    font-size: small;  
-    text-align: center;
-}
-
-/* Sucursales - Nosotros */
-
-.horarios{
-text-align: center;
-color: #361112;
-list-style: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-iframe {
-    width: 100%;
-    height: 400px;
-}
-
+/* Mixin */
 /* Contacto */
-
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
 .contacto {
-    margin: auto;
-    background-color: #F9F1F3;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
+  margin: auto;
+  background-color: #F9F1F3;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
 }
 
-input[type="text"],
-input[type="email"] {
-    display: block;
-    border: 1px solid #361112;
-    border-radius: 4px;
-    font-size: 16px;
+input[type=text], input[type=email] {
+  display: block;
+  border: 1px solid #361112;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 .mensaje {
-    display: block;
-    border: 1px solid #361112;
-    border-radius: 4px;
-    font-size: 16px;
+  display: block;
+  border: 1px solid #361112;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
-.btnContacto {
-    background-color: #c35c5f;
-    color: #F9F1F3;
+/* Footer */
+footer {
+  margin: 10px;
+  padding: 20px;
+  border-top: 1px solid #361112;
 }
-    
-.btnContacto:hover {
-    background-color: #c97a7d;
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
+/* Body */
+body {
+  background-color: #ffffff;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+/* Main */
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #361112;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Header */
+.imgLogo {
+  width: 100px;
+}
+
+.encabezado {
+  background-color: #ffffff;
+  border-bottom: #361112 1px solid;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+}
+
+.imgCarrousel {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-color: #F9F1F3;
+  margin-top: 20px;
+}
+
+/* Sucursales - Nosotros */
+.horarios {
+  text-align: center;
+  color: #361112;
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* Newsletter */
+.newsletter {
+  margin: auto;
+  background-color: #F9F1F3;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btnNews {
+  background-color: #c35c5f;
+  color: #F9F1F3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  cursor: pointer;
+}
+.btnNews:hover {
+  background-color: #c97a7d;
+}
+
+.copy {
+  font-size: small;
+  text-align: center;
+}
+
+/* Novedades - Productos */
+.noBorder {
+  border: none;
+}
+
+.btnCarrito {
+  background-color: #c35c5f;
+  color: #F9F1F3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  cursor: pointer;
+}
+.btnCarrito:hover {
+  background-color: #c97a7d;
+}
+
+/*# sourceMappingURL=style.css.map */

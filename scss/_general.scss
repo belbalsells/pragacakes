@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background-color: $color-fondo;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Main */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: $color-fuentes;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}

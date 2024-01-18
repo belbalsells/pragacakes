@@ -1,0 +1,9 @@
+/* Novedades - Productos */
+
+.noBorder {
+    border: none;
+}
+
+.btnCarrito {
+    @include btn;
+}
