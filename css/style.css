@@ -96,6 +96,21 @@ iframe {
   height: 400px;
 }
 
+.historia {
+  text-align: left;
+  color: #361112;
+  list-style: none;
+}
+
+.imgTienda {
+  height: 380px;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /* Newsletter */
 .newsletter {
   margin: auto;

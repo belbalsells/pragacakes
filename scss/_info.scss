@@ -14,3 +14,19 @@ iframe {
     width: 100%;
     height: 400px;
 }
+
+.historia {
+    text-align: left;
+    color: $color-fuentes;
+    list-style: none;
+}
+
+.imgTienda {
+  height: 380px;
+//   width: 320px;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
