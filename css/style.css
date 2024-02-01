@@ -140,6 +140,10 @@ iframe {
   justify-content: space-evenly;
 }
 
+.sucursal {
+  text-align: center;
+}
+
 /* Newsletter */
 .newsletter {
   margin: auto;
